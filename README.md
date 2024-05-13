@@ -10,10 +10,6 @@ You can find out more about [writing in Markdown in GitHub's documentation](http
 
 This project is about my analysis of the well-known [Fisher's Iris](https://archive.ics.uci.edu/dataset/53/iris) dataset and the variables in contains. The Iris data set is one of the earliest datasets used for teaching, learning purposes on classification methonds and used in statistics and machine learning. It contains information about 3 classes of 50 instances each, where each class refers to a type of iris plant.  One class is linearly separable from the other 2; the latter are not linearly separable from each other.
 
-<a target="_blank" href="https://colab.research.google.com/github/jesabelle94/pands-project.git">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lFC_U5j_Y8IXF4Ga87KNVg.png" width="600" height="300"/>
 
 
@@ -37,10 +33,6 @@ To undertake this project, it is necessary to download and install all the requi
 - [GitHub Account](https://github.com/jesabelle94)
 
 The project focuses on [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) data set. [Copy of the data set here](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv)
-
-
-I used [openincolab.com](https://openincolab.com/) to generate the following clickable link.
-It opens the `penguins.ipynb` notebook in [Google Colab](https://colab.research.google.com/).
 
 
 ## Get Help
