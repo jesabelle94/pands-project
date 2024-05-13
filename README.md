@@ -1,16 +1,17 @@
-# pands-project
-
-# Fisher's Iris data set
+# My Project
 
 Programming and scripting module.
 This README has been written with [GitHub's documentation on READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind.
 You can find out more about [writing in Markdown in GitHub's documentation](https://allisonhorst.github.io/palmerpenguins/articles/intro.html#highlights).
 
-## About This Project
+## Fisher's Iris data set
 
-This project is about my analysis of the well-known [Fisher's Iris](https://archive.ics.uci.edu/dataset/53/iris) dataset and the variables in contains. The Iris data set is one of the earliest datasets used for teaching, learning purposes on classification methonds and used in statistics and machine learning. It contains information about 3 classes of 50 instances each, where each class refers to a type of iris plant.  One class is linearly separable from the other 2; the latter are not linearly separable from each other.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lFC_U5j_Y8IXF4Ga87KNVg.png" width="800" height="300"/>
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lFC_U5j_Y8IXF4Ga87KNVg.png" width="600" height="300"/>
+
+This project is about my analysis of the well-known [Fisher's Iris](https://archive.ics.uci.edu/dataset/53/iris) dataset and the variables in contains. The Iris data set is one of the nmost well-known and commonly used datasets in the field of statistics and machine learning. The Iris dataset consists of 150 samples of iris flowers from three different species: Setosa, Versicolor, and Virginica. Each sample has four features: sepal length, sepal width, petal length, and petal width. Ronald Fisher, a British biologist and statistician, introduced this concept in 1936.
+
+The project focuses on [Iris data set](https://archive.ics.uci.edu/dataset/53/iris). [Copy of the data set here](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data)
 
 
 ## Use of This Project
@@ -31,8 +32,6 @@ To undertake this project, it is necessary to download and install all the requi
 - [Anaconda](https://www.anaconda.com/products/individual)
 - [Visual Studio Code (VS Code)](https://code.visualstudio.com/Download)
 - [GitHub Account](https://github.com/jesabelle94)
-
-The project focuses on [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) data set. [Copy of the data set here](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv)
 
 
 ## Get Help
