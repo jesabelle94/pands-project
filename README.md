@@ -11,7 +11,7 @@ You can find out more about [writing in Markdown in GitHub's documentation](http
 
 This project is about my analysis of the well-known [Fisher's Iris](https://archive.ics.uci.edu/dataset/53/iris) dataset and the variables in contains. The Iris data set is one of the nmost well-known and commonly used datasets in the field of statistics and machine learning. The Iris dataset consists of 150 samples of iris flowers from three different species: Setosa, Versicolor, and Virginica. Each sample has four features: sepal length, sepal width, petal length, and petal width. Ronald Fisher, a British biologist and statistician, introduced this concept in 1936.
 
-The project focuses on [Iris data set](https://archive.ics.uci.edu/dataset/53/iris). [Copy of the data set here](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data)
+The project focuses on Iris data set and a [copy of the iris data set csv file](https://archive.ics.uci.edu/dataset/53/iris) was downloaded used to do the analysis. 
 
 
 ## Use of This Project
