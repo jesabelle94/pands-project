@@ -1,8 +1,24 @@
-# My Project
+# Pands Weekly Tasks Instructions
+This document contains the instructions for Problems (weekly tasks) for Programming and Scripting module on Higher Diploma in Data Analytics course.
 
-Programming and scripting module.
-This README has been written with [GitHub's documentation on READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind.
-You can find out more about [writing in Markdown in GitHub's documentation](https://allisonhorst.github.io/palmerpenguins/articles/intro.html#highlights).
+For a full description and solutions of the weekly tasks, visit [Weekly Taks](https://github.com/jesabelle94/pands-weekly-tasks.git)
+
+## Table of Contents
+- [**Requirements**](https://github.com/jesabelle94/pands-weekly-tasks?tab=readme-ov-file#requirements)
+- [**Fisher's Iris data set**](https://github.com/jesabelle94/pands-weekly-tasks?tab=readme-ov-file#weekly-tasks)
+- [**Use of This Project**]
+- [**Get Help**]()
+- [**References**]()
+- [**Contribution**]()
+
+
+## Requirements
+
+To undertake this project, it is necessary to download and install all the required software, as well as set up a GitHub account.
+- [Cmder](https://cmder.app/)
+- [Anaconda](https://www.anaconda.com/products/individual)
+- [Visual Studio Code (VS Code)](https://code.visualstudio.com/Download)
+- [GitHub Account](https://github.com/jesabelle94)
 
 ## Fisher's Iris data set
 
@@ -33,26 +49,15 @@ This project is useful for getting started with Data Analytics and importantly t
 - Provide evidence in a decision-making process using a data set.
 - Appreciate the limitations of graphical representations in data intensive workflows.
 
-
-## Get Started
-
-To undertake this project, it is necessary to download and install all the required software, as well as set up a GitHub account.
-- [Cmder](https://cmder.app/)
-- [Anaconda](https://www.anaconda.com/products/individual)
-- [Visual Studio Code (VS Code)](https://code.visualstudio.com/Download)
-- [GitHub Account](https://github.com/jesabelle94)
-
-
 ## Get Help
 
 Where users can get help with your project
 [Using Pandas for Statistical Analysis](https://learncodingfast.compython-for-data-science-how-to-output-basic-summary-statistics-using-a-single-pandas-function/)
 [Python - IRIS Data visualization and explanation](https://www.kaggle.com/code/abhishekkrg/python-iris-data-visualization-and-explanation)
 
+## References
+- 
+
 ## Contributions
 
 Jenny Isabelle Formentera.
-
-## Author
-
-Hello! My name is Jenny, and I've taken interest about Data Analytics and exploring the vast possibilites. Currently enrolled in the part time course Higher Diploma in Science in Data Analytics. I work as a Quality Analyst in a Tech company. Through this project, I hope to not only enhance my skills but also broaden my knowledge in Data Analytics.
