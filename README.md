@@ -8,10 +8,19 @@ You can find out more about [writing in Markdown in GitHub's documentation](http
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lFC_U5j_Y8IXF4Ga87KNVg.png" width="800" height="300"/>
 
-
 This project is about my analysis of the well-known [Fisher's Iris](https://archive.ics.uci.edu/dataset/53/iris) dataset and the variables in contains. The Iris data set is one of the nmost well-known and commonly used datasets in the field of statistics and machine learning. The Iris dataset consists of 150 samples of iris flowers from three different species: Setosa, Versicolor, and Virginica. Each sample has four features: sepal length, sepal width, petal length, and petal width. Ronald Fisher, a British biologist and statistician, introduced this concept in 1936.
 
 The project focuses on Iris data set and a [copy of the iris data set csv file](https://archive.ics.uci.edu/dataset/53/iris) was downloaded used to do the analysis. 
+
+Attribute Information:
+1. Sepal length in cm
+2. Sepal width in cm
+3. Petal length in cm
+4. Petal width in cm
+5. Variety/Species:
+    - Iris Setosa
+    - Iris Versicolor
+    - Iris Virginica
 
 
 ## Use of This Project
@@ -37,7 +46,8 @@ To undertake this project, it is necessary to download and install all the requi
 ## Get Help
 
 Where users can get help with your project
-
+[Using Pandas for Statistical Analysis](https://learncodingfast.compython-for-data-science-how-to-output-basic-summary-statistics-using-a-single-pandas-function/)
+[Python - IRIS Data visualization and explanation](https://www.kaggle.com/code/abhishekkrg/python-iris-data-visualization-and-explanation)
 
 ## Contributions
 
