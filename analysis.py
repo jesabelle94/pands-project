@@ -18,7 +18,7 @@ print ("\n")
 print(iris)
 print ("\n")
 print ("------------------------------------------------------------------------------")
-# reference for .describe() and .info(): https://towardsdatascience.com/getting-started-to-data-analysis-with-python-pandas-with-titanic-dataset-a195ab043c77
+# reference for .describe(): https://towardsdatascience.com/getting-started-to-data-analysis-with-python-pandas-with-titanic-dataset-a195ab043c77
 print ("Unique classification/type:")
 print ("------------------------------------------------------------------------------")
 print ("\n")

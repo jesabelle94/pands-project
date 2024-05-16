@@ -1,14 +1,11 @@
-# Pands Weekly Tasks Instructions
-This document contains the instructions for Problems (weekly tasks) for Programming and Scripting module on Higher Diploma in Data Analytics course.
-
-For a full description and solutions of the weekly tasks, visit [Weekly Taks](https://github.com/jesabelle94/pands-weekly-tasks.git)
+# Project Instructions
+This repository is dedicated to the pands-project given during the Programming and scripting module on Higher Diploma in Data Analytics course. The project focuses on researching and investigating Fisher's Iris dataset.
 
 ## Table of Contents
-- [**Requirements**](https://github.com/jesabelle94/pands-weekly-tasks?tab=readme-ov-file#requirements)
-- [**Fisher's Iris data set**](https://github.com/jesabelle94/pands-weekly-tasks?tab=readme-ov-file#weekly-tasks)
-- [**Use of This Project**]
-- [**Get Help**]()
-- [**References**]()
+- [**Requirements**]()
+- [**Fisher's Iris data set**]()
+- [**Use of This Project**] ()
+- [**Get Help & References**]()
 - [**Contribution**]()
 
 
@@ -49,14 +46,14 @@ This project is useful for getting started with Data Analytics and importantly t
 - Provide evidence in a decision-making process using a data set.
 - Appreciate the limitations of graphical representations in data intensive workflows.
 
-## Get Help
+## Get Help & References 
 
-Where users can get help with your project
 [Using Pandas for Statistical Analysis](https://learncodingfast.compython-for-data-science-how-to-output-basic-summary-statistics-using-a-single-pandas-function/)
 [Python - IRIS Data visualization and explanation](https://www.kaggle.com/code/abhishekkrg/python-iris-data-visualization-and-explanation)
-
-## References
-- 
+[About Fisher’s Iris dataset](https://www.angela1c.com/projects/iris_project/the-iris-dataset/)
+[Iris Dataset - Exploratory Data Analysis](https://www.kaggle.com/code/lalitharajesh/iris-dataset-exploratory-data-analysis)
+[Iris Data Visualization using Python](https://www.kaggle.com/code/aschakra/iris-data-visualization-using-python)
+ 
 
 ## Contributions
 
