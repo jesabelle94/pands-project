@@ -2,20 +2,20 @@
 This repository is dedicated to the pands-project given during the Programming and scripting module on Higher Diploma in Data Analytics course. The project focuses on researching and investigating Fisher's Iris dataset.
 
 ## Table Of Contents
-- [**Requirements**]()
-- [**Use of This Project**] ()
-- [**Fisher's Iris data set**]()
-- [**Dataset Analysis**]()
-    - Libraries & Modules Used
-    - Importing Iris Data Set
-    - Analysis Summary
-- [**Plots**]()
-    - Histograms
-    - Scatterplots
-    - Pairplot
-- [**Conclusion**]()
-- [**Get Help & References**]()
-- [**Contribution**]()
+- [**Requirements**](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#requirements)
+- [**Use of This Project**](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#use-of-this-project)
+- [**Fisher's Iris data set**](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#fishers-iris-data-set)
+- [**Dataset Analysis**](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#dataset-analysis)
+    - [Libraries & Modules Used](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#libraries--modules-used)
+    - [Importing Iris Data Set](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#importing-iris-data-set)
+    - [Analysis Summary](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#analysis-summary)
+- [**Plots**](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#plots)
+    - [Histograms](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#histograms)
+    - [Scatterplots](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#scatterplots)
+    - [Pairplot](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#pairplot)
+- [**Conclusion**](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#conclusion)
+- [**Get Help & References**](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#get-help--references)
+- [**Contribution**](https://github.com/jesabelle94/pands-project?tab=readme-ov-file#contributions)
 
 
 ## Requirements
@@ -57,6 +57,8 @@ Attribute Information:
     - Iris Virginica
 
 ## Dataset Analysis
+
+Full project analysis can be found here: [pands-project](https://github.com/jesabelle94/pands-project)
  
 ### Libraries & Modules Used
 
@@ -231,6 +233,8 @@ Code example used for Scatteplot:
     # Show the plot
     plt.savefig("Iris.pairplot.png")
     plt.show()
+
+<img src = "https://github.com/jesabelle94/pands-project/blob/main/Iris.pairplot.png" alt = "Petal Length & Width" width = "450" height = "450"> 
 
 
 ## Conclusion
