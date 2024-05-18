@@ -227,6 +227,7 @@ Code example used for Scatteplot:
 The pairplot shows how different variables in the Iris dataset relate to each other. Each scatterplot displays the connection between two variables, colored by the type of Iris flower. This helps to spot patterns and connections between the variables, giving insights into the dataset's structure and relationships.
 
 Code example used for Scatteplot:
+
     # Create pairplot
     pplot = sns.pairplot(iris, hue="variety", palette=["pink","royalblue", "mediumpurple"])
 
