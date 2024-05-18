@@ -1,7 +1,7 @@
 # Project Instructions
 This repository is dedicated to the pands-project given during the Programming and scripting module on Higher Diploma in Data Analytics course. The project focuses on researching and investigating Fisher's Iris dataset.
 
-## Table of Contents
+## Table Of Contents
 - [**Requirements**]()
 - [**Fisher's Iris data set**]()
 - [**Use of This Project**] ()
@@ -17,7 +17,7 @@ To undertake this project, it is necessary to download and install all the requi
 - [Visual Studio Code (VS Code)](https://code.visualstudio.com/Download)
 - [GitHub Account](https://github.com/jesabelle94)
 
-## Use of This Project
+## Use Of This Project
 
 This project is useful for getting started with Data Analytics and importantly to demonstrate the following:
 - Source and investigate sets of data.
@@ -27,7 +27,7 @@ This project is useful for getting started with Data Analytics and importantly t
 - Provide evidence in a decision-making process using a data set.
 - Appreciate the limitations of graphical representations in data intensive workflows.
 
-## Fisher's Iris data set
+## Fisher's Iris Data Set
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lFC_U5j_Y8IXF4Ga87KNVg.png" width="800" height="300"/>
 
@@ -35,9 +35,6 @@ This project is about my analysis of the well-known [Fisher's Iris](https://arch
 data set is one of the nmost well-known and commonly used datasets in the field of statistics and machine learning. The Iris dataset consists of 150 samples of 
 iris flowers from three different species: Setosa, Versicolor, and Virginica. Each sample has four features: sepal length, sepal width, petal length, and petal 
 width. Ronald Fisher, a British biologist and statistician, introduced this concept in 1936.
-
-The project focuses on Iris data set and a [copy of the iris data set csv file](https://archive.ics.uci.edu/dataset/53/iris) was downloaded used to do the 
-analysis. 
 
 Attribute Information:
 1. Sepal length in cm
@@ -51,12 +48,24 @@ Attribute Information:
 
 ## Dataset Analysis
  
- The modules and libraries used to undertake the Iris dataset analysis were imported. Each library/module used are explained throughout  
+### Libraries & Modules Used
+
+ The modules and libraries used to undertake the Iris dataset analysis were imported. Each library/module used are explained and referenced throughout when writing the codes. 
+
     - import numpy as np
     - import pandas as pd
     - import matplotlib.pyplot as plt
     - import seaborn as sns
     - import sys
+
+### Importing Iris Data Set
+
+The project focuses on Iris data set and a [copy of the iris data set csv file](https://archive.ics.uci.edu/dataset/53/iris) was downloaded used to do the 
+analysis. 
+
+
+
+
 
 
 
