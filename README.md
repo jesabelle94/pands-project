@@ -61,9 +61,44 @@ Attribute Information:
 ### Importing Iris Data Set
 
 The project focuses on Iris data set and a [copy of the iris data set csv file](https://archive.ics.uci.edu/dataset/53/iris) was downloaded used to do the 
-analysis. 
+analysis. The Iris data set was imported using the csv file using pd.read.csv("filepath.csv"). This was used throughout the analysis to get data. 
 
-helloo
+    iris = pd.read_csv('/Users/jennyformentera/Desktop/pands-project/iris.csv')
+
+### Analysis Summary
+
+Analysis summary is stored in [analysis_summary.txt](https://github.com/jesabelle94/pands-project/blob/main/analysis_summary.txt). This code redirects the standard output (sys.stdout) to a file named analysis_summary.txt. Any output from print statements will be written to this file.
+
+    sys.stdout = open ("analysis_summary.txt","w")
+    iris = pd.read_csv('iris.csv')
+    
+    print(iris)
+    <details>
+           <summary>User point of view</summary>
+           <p>
+           
+           SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm
+    count     150.000000    150.000000     150.000000    150.000000
+    mean        5.843333      3.054000       3.758667      1.198667
+    std         0.828066      0.433594       1.764420      0.763161
+    min         4.300000      2.000000       1.000000      0.100000
+    25%         5.100000      2.800000       1.600000      0.300000
+    50%         5.800000      3.000000       4.350000      1.300000
+    75%         6.400000      3.300000       5.100000      1.800000
+    max         7.900000      4.400000       6.900000      2.500000
+
+</p>
+</details>
+
+
+    print (iris['variety'].unique())
+
+    print (iris.describe())
+
+    print (iris['variety'].value_counts())
+
+    sys.stdout.close()
+
 
 
 
