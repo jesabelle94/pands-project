@@ -206,8 +206,8 @@ Code example used for Histogram:
     plt.savefig("Petal.Length&Width.png")
     plt.show()
 
-<img src = "https://github.com/jesabelle94/pands-project/blob/main/Sepal.Width.png" alt = "Sepal Width" width = "450" height = "450"> 
-<img src = "https://github.com/jesabelle94/pands-project/blob/main/Sepal.Length.png" alt = "Sepal Length" width = "450" height = "450">
+<img src = "https://github.com/jesabelle94/pands-project/blob/main/Petal.Length%26Width.png" alt = "Petal Length & Width" width = "450" height = "450"> 
+<img src = "https://github.com/jesabelle94/pands-project/blob/main/Sepal.Length%26Width.png" alt = "Sepal Length & Width" width = "450" height = "450">
 
 ## Conclusion
 
