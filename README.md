@@ -152,6 +152,7 @@ Number of occurances of each type
 ### Histograms
 
 Histogram was created for each variable to png files. Four variables were used to present each histogram which are:
+    
     - Sepal Width
     - Sepal Length
     - Petal Width
