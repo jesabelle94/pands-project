@@ -68,12 +68,13 @@ analysis. The Iris data set was imported using the csv file using pd.read.csv("f
 ### Analysis Summary
 
 Analysis summary is stored in [analysis_summary.txt](https://github.com/jesabelle94/pands-project/blob/main/analysis_summary.txt). This code redirects the standard output (sys.stdout) to a file named analysis_summary.txt. Any output from print statements will be written to this file.
-
-'''
-sys.stdout = open ("analysis_summary.txt","w")
-iris = pd.read_csv('iris.csv')
-'''
-print(iris)
+    
+    '''
+    sys.stdout = open ("analysis_summary.txt","w")
+    iris = pd.read_csv('iris.csv')
+    
+    print(iris)
+    '''
 <details>
            <summary>User point of view</summary>
            <p>
