@@ -73,7 +73,7 @@ Analysis summary is stored in [analysis_summary.txt](https://github.com/jesabell
     sys.stdout = open ("analysis_summary.txt","w")
     iris = pd.read_csv('iris.csv')
     
-    print(iris)
+print(iris)
    
 <details>
            <summary>User point of view</summary>
