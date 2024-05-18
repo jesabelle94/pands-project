@@ -149,5 +149,11 @@ plt.legend(title='Variety')
 plt.savefig("Sepal.Length&Width.png")
 plt.show()
 
+# Create pairplot
+pplot = sns.pairplot(iris, hue="variety", palette=["pink","royalblue", "mediumpurple"])
+
+# Show the plot
+plt.savefig("Iris.pairplot.png")
+plt.show()
 
 

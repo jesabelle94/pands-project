@@ -3,8 +3,17 @@ This repository is dedicated to the pands-project given during the Programming a
 
 ## Table Of Contents
 - [**Requirements**]()
-- [**Fisher's Iris data set**]()
 - [**Use of This Project**] ()
+- [**Fisher's Iris data set**]()
+- [**Dataset Analysis**]()
+    - Libraries & Modules Used
+    - Importing Iris Data Set
+    - Analysis Summary
+- [**Plots**]()
+    - Histograms
+    - Scatterplots
+    - Pairplot
+- [**Conclusion**]()
 - [**Get Help & References**]()
 - [**Contribution**]()
 
@@ -19,7 +28,8 @@ To undertake this project, it is necessary to download and install all the requi
 
 ## Use Of This Project
 
-This project is useful for getting started with Data Analytics and importantly to demonstrate the following:
+This project is useful for getting started with Data Analytics. The Iris dataset is a fundamental dataset in Data Science and Machine Learning. Researchers measured these features of various iris flowers and recorded them digitally, and importantly to demonstrate the following:
+
 - Source and investigate sets of data.
 - Programmatically explore and visualize data.
 - Apply basic mathematical data analysis techniques to data sets.
@@ -148,6 +158,7 @@ Number of occurances of each type
 
     sys.stdout.close()
 
+## Plots
 
 ### Histograms
 
@@ -187,7 +198,7 @@ Code example used for Histogram:
 
 Scatterplots are created using two separate functions: one for comparing sepal width and length, and another for comparing petal width and length. Both of these functions are combined under a single function called scatterplots().
 
-Code example used for Histogram:
+Code example used for Scatteplot:
 
     # Load the Iris dataset
     iris = pd.read_csv('iris.csv')
@@ -209,11 +220,24 @@ Code example used for Histogram:
 <img src = "https://github.com/jesabelle94/pands-project/blob/main/Petal.Length%26Width.png" alt = "Petal Length & Width" width = "450" height = "450"> 
 <img src = "https://github.com/jesabelle94/pands-project/blob/main/Sepal.Length%26Width.png" alt = "Sepal Length & Width" width = "450" height = "450">
 
+## Pairplot
+
+The pairplot shows how different variables in the Iris dataset relate to each other. Each scatterplot displays the connection between two variables, colored by the type of Iris flower. This helps to spot patterns and connections between the variables, giving insights into the dataset's structure and relationships.
+
+Code example used for Scatteplot:
+    # Create pairplot
+    pplot = sns.pairplot(iris, hue="variety", palette=["pink","royalblue", "mediumpurple"])
+
+    # Show the plot
+    plt.savefig("Iris.pairplot.png")
+    plt.show()
+
+
 ## Conclusion
 
 The histogram clearly demonstrates distinct differences in the distribution of sepal and petal widths and lengths among the three Iris species: Setosa, Versicolor, and Virginica. Setosa typically has shorter and narrower petals and sepals, while Versicolor has moderate lengths and widths. Virginica has the longest and widest petals and sepals. These differences make it easier to distinguish between the species based on these measurements.
 
-
+The scatterplots visually depict the relationship between sepal width and length, as well as petal width and length, for the Iris dataset. These plots help in understanding the patterns and correlations between these features across different species of Iris flowers.
 
 
 ## Get Help & References 
@@ -228,7 +252,9 @@ The histogram clearly demonstrates distinct differences in the distribution of s
 - [matplotlib.axes.Axes.scatter](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.axes.Axes.scatter.html)
 - [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 - [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
+- [Iris Dataset Analysis using Python | Classification | Machine Learning Project Tutorial](https://www.hackersrealm.net/post/iris-dataset-analysis-using-python)
+- [Exploratory Data Analysis on Iris Dataset in Python](https://flexiple.com/python/exploratory-data-analysis-on-iris-dataset)
+- [Python – Basics of Pandas using Iris Dataset](https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/)
 
 ## Contributions
 
