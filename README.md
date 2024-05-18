@@ -149,8 +149,33 @@ Number of occurances of each type
     sys.stdout.close()
 
 
+### Histograms
 
+Histogram was created for each variable to png files. Four variables were used to present each histogram which are:
+    - Sepal Width
+    - Sepal Length
+    - Petal Width
+    - Petal Length
 
+Code example used for Histogram:
+'''
+    # Load the Iris dataset
+    iris = pd.read_csv('iris.csv')
+
+    # Select and filter the DataFrame to extract the sepal width measurements for each species (Setosa, Versicolor, and Virginica).
+    setosa = iris[iris['variety'] == 'Setosa']['sepal.width']
+    versicolor = iris[iris['variety'] == 'Versicolor']['sepal.width']
+    virginica = iris[iris['variety'] == 'Virginica']['sepal.width']
+
+    # Create a histogram for the sepal width data of the three species.
+    plt.figure(figsize=(7,5))
+    plt.hist([setosa, versicolor, virginica], bins=10, label=['Setosa', 'Versicolor', 'Virginica'], color=['pink','royalblue', 'mediumpurple'], edgecolor='black',  density=True)
+    plt.legend()
+    plt.title('Differences in Sepal Width', fontsize=14)
+    plt.xlabel('Sepal Width (cm)', fontsize=12)
+    plt.ylabel('Frequency', fontsize=12)
+    plt.show()
+'''
 
 
 
