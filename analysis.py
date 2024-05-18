@@ -114,5 +114,40 @@ plt.ylabel('Frequency', fontsize=12)
 plt.savefig("Petal.Length.png")
 plt.show()
 
+# Scatterplots
+# Load the Iris dataset
+iris = pd.read_csv('iris.csv')
+
+# Create a scatter plot for the relationship between petal length and petal width
+plt.figure(figsize=(8, 6))
+sns.scatterplot(data=iris, x='petal.length', y='petal.width', hue='variety', palette=["pink","royalblue", "mediumpurple"], s=100)
+
+# Add title and labels
+plt.title('Relationship between Petal Length and Petal Width', fontsize=10)
+plt.xlabel('Petal Length (cm)', fontsize=10)
+plt.ylabel('Petal Width (cm)', fontsize=10)
+
+# Display the plot
+plt.legend(title='Variety')
+plt.savefig("Petal.Length&Width.png")
+plt.show()
+
+# Load the Iris dataset
+iris = pd.read_csv('iris.csv')
+
+# Create a scatter plot for the relationship between sepal length and sepal width
+plt.figure(figsize=(8, 6))
+sns.scatterplot(data=iris, x='sepal.length', y='sepal.width', hue='variety', palette=["pink","royalblue", "mediumpurple"], s=100)
+
+# Add title and labels
+plt.title('Relationship between Sepal Length and Sepal Width', fontsize=10)
+plt.xlabel('Sepal Length (cm)', fontsize=10)
+plt.ylabel('Sepal Width (cm)', fontsize=10)
+
+# Display the plot
+plt.legend(title='Variety')
+plt.savefig("Sepal.Length&Width.png")
+plt.show()
+
 
 

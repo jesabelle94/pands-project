@@ -111,7 +111,7 @@ Unique classification/types
 
 
 <details>
-Describe the dataset      
+Describes the dataset
     <summary>print (iris.describe())</summary>
 
 
@@ -183,6 +183,39 @@ Code example used for Histogram:
 <img src = "https://github.com/jesabelle94/pands-project/blob/main/Petal.Width.png" alt = "Petal Width" width = "450" height = "450"> <img src = "https://github.com/jesabelle94/pands-project/blob/main/Petal.Length.png" alt = "Petal Length" width = "450" height = "450">
 
 
+## Scatterplots
+
+Scatterplots are created using two separate functions: one for comparing sepal width and length, and another for comparing petal width and length. Both of these functions are combined under a single function called scatterplots().
+
+Code example used for Histogram:
+
+    # Load the Iris dataset
+    iris = pd.read_csv('iris.csv')
+    
+    # Create a scatter plot for the relationship between petal length and petal width
+    plt.figure(figsize=(8, 6))
+    sns.scatterplot(data=iris, x='petal.length', y='petal.width', hue='variety', palette=["pink","royalblue", "mediumpurple"], s=100)
+    
+    # Add title and labels
+    plt.title('Relationship between Petal Length and Petal Width', fontsize=10)
+    plt.xlabel('Petal Length (cm)', fontsize=10)
+    plt.ylabel('Petal Width (cm)', fontsize=10)
+    
+    # Display the plot
+    plt.legend(title='Variety')
+    plt.savefig("Petal.Length&Width.png")
+    plt.show()
+
+<img src = "https://github.com/jesabelle94/pands-project/blob/main/Sepal.Width.png" alt = "Sepal Width" width = "450" height = "450"> 
+<img src = "https://github.com/jesabelle94/pands-project/blob/main/Sepal.Length.png" alt = "Sepal Length" width = "450" height = "450">
+
+## Conclusion
+
+The histogram clearly demonstrates distinct differences in the distribution of sepal and petal widths and lengths among the three Iris species: Setosa, Versicolor, and Virginica. Setosa typically has shorter and narrower petals and sepals, while Versicolor has moderate lengths and widths. Virginica has the longest and widest petals and sepals. These differences make it easier to distinguish between the species based on these measurements.
+
+
+
+
 ## Get Help & References 
 
 - [Using Pandas for Statistical Analysis](https://learncodingfast.compython-for-data-science-how-to-output-basic-summary-statistics-using-a-single-pandas-function/)
@@ -192,7 +225,10 @@ Code example used for Histogram:
 - [Iris Data Visualization using Python](https://www.kaggle.com/code/aschakra/iris-data-visualization-using-python)
 - [List of named colors](https://matplotlib.org/stable/gallery/color/named_colors.html)
 - [How To Create Histograms in Python Using Matplotlib](https://www.nickmccullum.com/python-visualization/histogram/)
- 
+- [matplotlib.axes.Axes.scatter](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.axes.Axes.scatter.html)
+- [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 
 ## Contributions
 
