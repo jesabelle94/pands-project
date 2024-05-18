@@ -76,6 +76,9 @@ Analysis summary is stored in [analysis_summary.txt](https://github.com/jesabell
 print(iris)
    
 <details>
+print(iris)
+
+
            <summary>User point of view</summary>
            <p>
 
