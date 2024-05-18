@@ -178,7 +178,9 @@ Code example used for Histogram:
     plt.ylabel('Frequency', fontsize=12)
     plt.show()
 
+<img src = "https://github.com/jesabelle94/pands-project/blob/main/Sepal.Width.png" alt = "Sepal Width" width = "450" height = "450"> <img src = "https://github.com/jesabelle94/pands-project/blob/main/Sepal.Length.png" alt = "Sepal Length" width = "450" height = "450">
 
+<img src = "https://github.com/jesabelle94/pands-project/blob/main/Petal.Width.png" alt = "Petal Width" width = "450" height = "450"> <img src = "https://github.com/jesabelle94/pands-project/blob/main/Petal.Length.png" alt = "Petal Length" width = "450" height = "450">
 
 
 ## Get Help & References 
