@@ -72,9 +72,9 @@ Analysis summary is stored in [analysis_summary.txt](https://github.com/jesabell
    
     sys.stdout = open ("analysis_summary.txt","w")
     iris = pd.read_csv('iris.csv')
-       
+
+ print(iris)      
 <details>
-print(iris)
 Summary of the entire dataset
            <summary>User point of view</summary>
            <p>
@@ -97,18 +97,22 @@ Summary of the entire dataset
 </p>
 </details>
 
-<details>
+
 print (iris['variety'].unique())
+<details>
 Unique classification/type:
+    <summary>User point of view</summary>
 
     ['Setosa' 'Versicolor' 'Virginica']
 
 </p>
 </details>
 
-<details>
+
 print (iris.describe())
+<details>
 Describe the dataset
+    <summary>User point of view</summary>
            sepal.length  sepal.width  petal.length  petal.width
             count    150.000000   150.000000    150.000000   150.000000
             mean       5.843333     3.057333      3.758000     1.199333
@@ -121,9 +125,11 @@ Describe the dataset
 </p>
 </details>
 
-<details>
+
 print (iris['variety'].value_counts())
-Number of occurances of each type
+<details>
+    Number of occurances of each type
+    <summary>User point of view</summary>
     variety
     Setosa        50
     Versicolor    50
