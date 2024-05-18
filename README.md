@@ -158,7 +158,8 @@ Histogram was created for each variable to png files. Four variables were used t
     - Petal Length
 
 Code example used for Histogram:
-'''
+
+
     # Load the Iris dataset
     iris = pd.read_csv('iris.csv')
 
@@ -175,7 +176,7 @@ Code example used for Histogram:
     plt.xlabel('Sepal Width (cm)', fontsize=12)
     plt.ylabel('Frequency', fontsize=12)
     plt.show()
-'''
+
 
 
 
